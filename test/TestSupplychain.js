@@ -255,7 +255,6 @@ contract('SupplyChain', function(accounts) {
         assert.equal(resultBufferTwo[5], 6, 'Error: Invalid item State')
         assert.equal(resultBufferTwo[7], retailerID, 'Error: Invalid retailer ID')
         assert.equal(eventEmitted, true, 'Invalid event emitted') 
-        assert.equal(addRetailerEventEmitted, true, 'Invalid event emitted')    
     })    
 
     // 8th Test
